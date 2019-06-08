@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel ="stylesheet" href="twitchstart.css">
+             <link rel="stylesheet" type="text/css" href="/twitchbot/KoPubDotum.css">
+            <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.js"></script>
+
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="main">
+            <img class="botimg" src="C:\Users\spide\Desktop\twitchbot\logo_leg.svg" width="17%">
+            <span class="ex">나만의 트위치봇을 만들어보세요!</span>
+            <button class="start_btn" onclick="login()">시작하기</button>
+        </div>
+    </body>
+    <script>
+        var server_url='http://172.17.0.121:4000/user/auth';
+        var login = function(){
+            location.href="https://id.twitch.tv/oauth2/authorize?client_id=kewf5e51xaqgc47ia5ajm79z2yeb5f&redirect_uri=http://localhost:8080&response_type=token&scope=user_read+channel:moderate+chat:edit+chat:read+whispers:edit+whispers:read&force_verify=true";
+        }
+        var url = window.location.hash.substring(1).split('&');
+        var gethash =function(){
+            url =  window.location.hash.substring(1).split('&');
+            
+        }
+        $.post(server_url + '?' + url[0],{access_token: url[0]},function(data){
+            console.log(url[0])
+            console.log(data);
+            if(data.code == 200){
+                $.cookie('token',data.token);
+        }
+        });
+
+
+    </script>
+</html>

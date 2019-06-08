@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel ="stylesheet" href="command.css">
+        <link rel="stylesheet" type="text/css" href="/twitchbot/KoPubDotum.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img class="logo_img"src="C:\Users\spide\Desktop\twitchbot\logo.svg">
+            </div>
+            <ul>
+                <li><button><i class="fas fa-microphone"></i><p>명령어</p></button></li>
+                <li><button><i class="far fa-clipboard"></i><p>공지사항</p></button></li>
+                <li><button><i class="fas fa-file-alt"></i><p>채팅규칙</p></button></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="Title">
+                <span class="title"><h1>명령어 설정하기</h1></span>
+                <span class="ex">특정 명령어를 입력시 봇이 대신 대답해주는 기능입니다!</span>
+            </div>
+            <div class="content">
+                <div class="left_column">
+                        <button class ="add" onclick="">+</button> 
+                        <div class="list">
+                        <ul class="command_ul">
+                        </ul>
+                    </div> 
+                </div>
+                <div class="right_column">
+                    <div class="right_title">
+                            <img class="set_icon"src="logo_leg.svg">
+                            <span class="set_title">명령어설정</span>
+                    </div>
+                    <div class="set_content">
+                        <p>명령어</p>
+                        <input type="text" id="command" placeholder="원하는 명령어를 입력해주세요!">
+                        <p>응답</p>
+                        <input type="text" id="response" >
+                        <button id ="add"onclick="add()">설정 완료</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </body>
+    <script>
+         var command_array = ['!타임'];
+         var count =0;
+        
+         function add(){
+             count++;
+             command_array[count]=document.getElementById("command").value;
+             var response=document.getElementById("response").value;
+             console.log(command_array[count]);
+             console.log(response);
+            $("#add").ready( function() {
+            $( ".command_ul" ).append( `<li class="command_li"><span class="command_form">명령어</span><div class="low_level"><span class="command">${command_array[count]}</span><button class="edit_button">🛠️</button><button class="delete_button">🗑️</button></div></li>` );
+            // $(".command").text();
+             });
+                
+         }
+
+         
+    </script>
+</html>

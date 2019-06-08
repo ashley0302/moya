@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="226" height="227" viewBox="0 0 226 227">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="210" height="214" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-board">
+      <rect width="226" height="227"/>
+    </clipPath>
+  </defs>
+  <g id="board" clip-path="url(#clip-board)">
+    <g id="반복_그리드_2" data-name="반복 그리드 2" transform="translate(8 13)" opacity="0.81" clip-path="url(#clip-path)">
+      <g transform="translate(-945 -282)">
+        <path id="clipboard-regular" d="M183.75,35H140a35,35,0,0,0-70,0H26.25A26.257,26.257,0,0,0,0,61.25v192.5A26.257,26.257,0,0,0,26.25,280h157.5A26.257,26.257,0,0,0,210,253.75V61.25A26.257,26.257,0,0,0,183.75,35ZM105,21.875A13.125,13.125,0,1,1,91.875,35,13.094,13.094,0,0,1,105,21.875Zm78.75,228.594a3.291,3.291,0,0,1-3.281,3.281H29.531a3.291,3.291,0,0,1-3.281-3.281V64.531a3.291,3.291,0,0,1,3.281-3.281H52.5V80.938A6.582,6.582,0,0,0,59.063,87.5h91.875a6.582,6.582,0,0,0,6.563-6.562V61.25h22.969a3.291,3.291,0,0,1,3.281,3.281Z" transform="translate(945 282)" fill="#7f9edd" opacity="0.19"/>
+      </g>
+    </g>
+  </g>
+</svg>

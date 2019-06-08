@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="233" viewBox="0 0 167 233">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.462" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6be3b"/>
+      <stop offset="1" stop-color="#ff970a"/>
+    </linearGradient>
+    <clipPath id="clip-logo">
+      <rect width="167" height="233"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <rect id="사각형_123" data-name="사각형 123" width="15.851" height="33.023" rx="5" transform="translate(142.203 101.135) rotate(180)" fill="#ff4907"/>
+    <rect id="사각형_124" data-name="사각형 124" width="16.732" height="39.187" rx="5" transform="translate(137.36 104.217) rotate(180)" fill="#ff7a07"/>
+    <rect id="사각형_122" data-name="사각형 122" width="15.851" height="33.023" rx="5" transform="translate(22 68.113)" fill="#ff4907"/>
+    <rect id="사각형_121" data-name="사각형 121" width="16.732" height="39.187" rx="5" transform="translate(26.843 65.03)" fill="#ff7a07"/>
+    <ellipse id="타원_8" data-name="타원 8" cx="28.4" cy="25.097" rx="28.4" ry="25.097" transform="translate(53.702 21)" fill="url(#linear-gradient)"/>
+    <rect id="사각형_119" data-name="사각형 119" width="99.068" height="99.509" rx="6" transform="translate(32.567 43.456)" fill="#eae7e7"/>
+    <rect id="사각형_128" data-name="사각형 128" width="81.016" height="34.784" rx="17.392" transform="translate(41.814 66.351)" fill="#2227b3"/>
+    <circle id="타원_11" data-name="타원 11" cx="10.567" cy="10.567" r="10.567" transform="translate(52.381 73.396)" fill="#faac24"/>
+    <circle id="타원_12" data-name="타원 12" cx="10.567" cy="10.567" r="10.567" transform="translate(92.008 73.396)" fill="#faac24"/>
+    <rect id="사각형_120" data-name="사각형 120" width="67.807" height="11.008" rx="5.504" transform="translate(48.418 35.09)" fill="#ff4907"/>
+    <text id="MOYA" transform="translate(61 130)" fill="#2227b3" font-size="25" font-family="SheSmiles, She Smiles"><tspan x="0" y="0">MOYA</tspan></text>
+    <text id="MOYA-2" data-name="MOYA" transform="translate(39 205)" fill="#fff" font-size="55" font-family="SheSmiles, She Smiles"><tspan x="0" y="0">MOYA</tspan></text>
+    <rect id="사각형_135" data-name="사각형 135" width="60.574" height="21.105" rx="10.553" transform="translate(52.63 73.441)" fill="#faac24" opacity="0.18"/>
+  </g>
+</svg>

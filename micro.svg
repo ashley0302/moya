@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196" height="230" viewBox="0 0 196 230">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="158.577" height="213.657" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-micro">
+      <rect width="196" height="230"/>
+    </clipPath>
+  </defs>
+  <g id="micro" clip-path="url(#clip-micro)">
+    <g id="반복_그리드_1" data-name="반복 그리드 1" transform="translate(19 16)" opacity="0.21" clip-path="url(#clip-path)">
+      <g transform="translate(-519 -274)">
+        <path id="microphone-solid" d="M79.288,158.577a43.248,43.248,0,0,0,43.248-43.248V43.248a43.248,43.248,0,0,0-86.5,0v72.08A43.248,43.248,0,0,0,79.288,158.577Zm72.08-72.08h-7.208a7.206,7.206,0,0,0-7.208,7.208v21.624a57.731,57.731,0,0,1-63.426,57.385c-29.958-2.924-51.9-29.855-51.9-59.953V93.7A7.206,7.206,0,0,0,14.416,86.5H7.208A7.206,7.206,0,0,0,0,93.7V111.8c0,40.383,28.819,76.383,68.476,81.852v15.385H43.248a7.206,7.206,0,0,0-7.208,7.208v7.208a7.206,7.206,0,0,0,7.208,7.208h72.08a7.206,7.206,0,0,0,7.208-7.208v-7.208a7.206,7.206,0,0,0-7.208-7.208H90.1V193.82a79.365,79.365,0,0,0,68.476-78.491V93.7A7.206,7.206,0,0,0,151.369,86.5Z" transform="translate(519 274)" fill="#7f9edd" opacity="0.81"/>
+      </g>
+    </g>
+  </g>
+</svg>

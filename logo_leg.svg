@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306" height="433" viewBox="0 0 306 433">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.462" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6be3b"/>
+      <stop offset="1" stop-color="#ff970a"/>
+    </linearGradient>
+    <clipPath id="clip-logo_leg">
+      <rect width="306" height="433"/>
+    </clipPath>
+  </defs>
+  <g id="logo_leg" clip-path="url(#clip-logo_leg)">
+    <rect id="사각형_122" data-name="사각형 122" width="36.504" height="76.049" rx="5" transform="translate(15 126.497)" fill="#ff4907"/>
+    <rect id="사각형_121" data-name="사각형 121" width="38.532" height="90.245" rx="5" transform="translate(26.154 119.399)" fill="#ff7a07"/>
+    <rect id="사각형_133" data-name="사각형 133" width="21" height="152" rx="10.5" transform="translate(251.404 407.865) rotate(151)" fill="#2227b3"/>
+    <rect id="사각형_134" data-name="사각형 134" width="21" height="152" rx="10.5" transform="translate(144.203 263.313) rotate(1)" fill="#2227b3"/>
+    <rect id="사각형_132" data-name="사각형 132" width="21" height="152" rx="10.5" transform="matrix(0.875, 0.485, -0.485, 0.875, 132.037, 274.923)" fill="#2227b3"/>
+    <rect id="사각형_123" data-name="사각형 123" width="36.504" height="76.049" rx="5" transform="translate(291.819 202.546) rotate(180)" fill="#ff4907"/>
+    <rect id="사각형_124" data-name="사각형 124" width="38.532" height="90.245" rx="5" transform="translate(280.666 209.644) rotate(180)" fill="#ff7a07"/>
+    <ellipse id="타원_8" data-name="타원 8" cx="65.402" cy="57.797" rx="65.402" ry="57.797" transform="translate(88.007 18)" fill="url(#linear-gradient)"/>
+    <rect id="사각형_119" data-name="사각형 119" width="228.148" height="229.162" rx="6" transform="translate(39.336 69.714)" fill="#eae7e7"/>
+    <rect id="사각형_128" data-name="사각형 128" width="186.574" height="80.105" rx="40" transform="translate(60.63 122.441)" fill="#2227b3"/>
+    <rect id="사각형_135" data-name="사각형 135" width="140.574" height="51.105" rx="25.553" transform="translate(84.63 137.441)" fill="#faac24" opacity="0.18"/>
+    <ellipse id="타원_11" data-name="타원 11" cx="24.336" cy="24.336" rx="24.336" ry="24.336" transform="translate(84.965 138.665)" fill="#faac24"/>
+    <ellipse id="타원_12" data-name="타원 12" cx="24.336" cy="24.336" rx="24.336" ry="24.336" transform="translate(176.224 138.665)" fill="#faac24"/>
+    <rect id="사각형_120" data-name="사각형 120" width="156.154" height="25.35" rx="6" transform="translate(75.839 50.448)" fill="#ff4907"/>
+    <text id="MOYA" transform="translate(104.814 266.658)" fill="#2227b3" font-size="56" font-family="SheSmiles, She Smiles"><tspan x="0" y="0">MOYA</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,210 @@
+@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+    font-family: 'KopubDotum';
+    position: relative;
+    height:100vh;
+    margin:0;
+    display:flex;
+}
+h1{
+    margin:0;
+}
+button{
+    outline:none;
+    cursor: pointer;
+}
+.logo{
+    background:#2639A6;
+    height:38%;
+    text-align:center;
+}
+.logo_img{
+    margin-top:7%;
+
+}
+ul{
+    margin:0;
+    list-style-type:none;
+    padding:0;
+    width:100%;
+    font-family: 'KopubDotum'; 
+    font-weight:700;
+}
+
+nav{
+    font-family: 'KopubDotum'; 
+    font-weight:700;
+    display:flex;
+    flex-direction:column;    
+    width:20%;
+    margin:0;
+}
+nav button{
+    
+    display:flex;
+    text-align:left;
+    margin:0;
+    padding:3% 0%;
+    padding-left:7%;
+    width:100%;
+    background: #ffffff;
+    border:solid 0.03px #f1f1f1;
+    color:#707070;
+}
+nav p{
+    font-family: 'KopubDotum'; 
+    font-weight:700;
+    font-size:155%;
+}
+i{
+    margin:6% 7%;
+    font-size:200%;
+}
+.main{
+    font-family: 'KopubDotum'; 
+    display:flex;
+    flex-direction:column;
+    margin-top:4%;
+    padding-left:8%;
+    width:75%;
+}
+.Title{
+    position:relative;
+    height:17%;
+    width:100%;
+}
+.title{
+    font-family: 'TmonMonsori';
+    font-size:140%;
+    font-style: normal; font-weight: normal;
+}
+.ex{
+    font-weight:700;
+    font-size:120%;
+    padding-top:20%;
+    margin-top:20%;
+}
+.content{
+    display:flex;
+}
+.left_column{
+    margin-top:1%;
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    min-height:95%;
+}
+.add::-moz-focus-inner{
+    outline:none;
+}
+.add::-moz-focus-outer{
+    outline:none;
+}
+.add{
+    outline:none;
+    padding:5%;
+    border-radius:0.6rem;
+    border-style:none;
+    font-size:200%;
+    color:#ffffff;
+    background-color: #2639A6;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.list{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    border:0.3px solid;
+    margin-top:7%;
+    background-color: #E9E9E9;
+    border-radius: 0.6rem;
+    border-style: none;
+    
+}
+.command_li{
+    border:0.3px solid;
+    padding:3%;
+    padding-bottom:5%;
+    margin:5% 5%;
+    background-color: white;
+    border-radius: 0.6rem;
+    border-style: none;
+}
+.command_form{
+    margin-top:10%;
+    margin-left:3%;
+    font-size:80%;
+}
+.low_level{
+    display:flex;
+    margin-top:1.5%;
+    margin-left:10%;
+}
+.low_level button{
+    border-style:none;
+    background-color: #ffffff;;
+    font-size:140%;
+}
+.command{
+    font-size:140%;
+    width:60%;
+}
+.right_column{
+    font-weight:700;
+    margin-top:1%;
+    margin-left:5%;
+    border:solid 0.5px #f1f1f1;
+    padding:4%;
+    padding-bottom:2%;
+    height:83%;
+    width:50%;
+    border-radius: 0.6rem;
+}
+.set_icon{
+    width:6%;
+}
+.set_content{
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0;
+}
+.set_content p{
+    font-size: 120%;
+}
+.set_title{
+    font-size:170%;
+}
+.right_title{
+    height:10%;
+}
+.set_content{
+    font-family: 'KopubDotum'; 
+    font-weight: 700;
+    display:flex;
+    flex-direction: column;
+}
+.set_content input{
+    border-radius:0.2rem;
+    font-size:110%;
+    padding:2.5%;
+    border:1px solid #f1f1f1;
+}
+.set_content button{
+    font-family: 'KopubDotum'; 
+    font-weight:700;
+    margin-top:10%;
+    margin-left:70%;
+    font-size:100%;
+    padding:2.3% 1.5% 2.3% 1.5%;
+    border-radius: 0.2rem;
+    border:none;
+    background-color: #2639A6;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    color:#ffffff;
+
+}
+
+
+

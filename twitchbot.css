@@ -1,0 +1,129 @@
+
+@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+    font-family: 'KopubDotum';
+    position: relative;
+    height:100vh;
+    margin:0;
+    display:flex;
+}
+h1{
+    margin:0;
+}
+.logo{
+    background:#2639A6;
+    height:38%;
+    text-align:center;
+}
+.logo_img{
+    margin-top:7%;
+
+}
+ul{
+    margin:0;
+    list-style-type:none;
+    padding:0;
+    width:100%;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;    
+    width:20%;
+    margin:0;
+}
+nav button{
+    display:flex;
+    text-align:left;
+    margin:0;
+    padding:3% 0%;
+    padding-left:7%;
+    width:100%;
+    background: #ffffff;
+    border:solid 0.03px #f1f1f1;
+    color:#707070;
+}
+nav p{
+    font-family: 'KopubDotum'; 
+    font-weight:700;
+    font-size:155%;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    margin-top:3%;
+    padding-left:8%;
+    width:75%;
+}
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.menu{
+    position:relative;
+    height:30%;
+    margin-bottom:15%;
+    width:100%;
+}
+.title{
+    font-family: 'TmonMonsori';
+    font-style: normal; font-weight: normal;
+    color:#1E2D84;
+    padding-bottom:120%;
+}
+.ex{
+    font-size:120%;
+}
+.menu ul{
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    display:flex;
+    height:100%;    
+    width:94%;
+}
+.menu li{
+    width:33%;
+    margin-right:3%;
+}
+.menu button{
+    position:relative;
+    font-family: 'TmonMonsori';
+    font-style: normal;
+    font-weight: normal;
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    background-color:white;
+    border:none;
+    border-radius:0.3rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.btn_img{
+    position: relative;
+    width:56.5%;
+    height:auto;
+    margin-right:30%;
+}
+
+.btn1{
+    position: absolute;
+    z-index: 100;
+    text-align:right;
+    margin-top:47%;
+    margin-left:28%;
+    font-size:200%;
+    color:#2639A6;
+}
+
+.status{
+    height:10%;
+}
+i{
+    margin:6% 7%;
+    font-size:200%;
+}
+
